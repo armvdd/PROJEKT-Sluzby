@@ -1,0 +1,203 @@
+html { box-sizing: border-box; }
+*, ::before, ::after { box-sizing: inherit; }
+
+*{
+    font-family: Montserrat;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    max-width: 500px;
+    margin: 60px auto;
+    text-align: center;
+}
+
+#happyTraveler{
+    width: 350px;
+    height: 290.5px;
+}
+
+h1{
+    font-size: 28px;
+    font-weight: bold;
+    margin: 40px 0 10px 0;  
+}
+
+.border-center{
+    max-width: 60px;
+    border-top: 2px solid #407BFF;
+    margin: auto;
+}
+.uvod--text{
+    color: #8B8B8B;
+    font-size: 16px;
+    font-weight: 300;
+    margin: 30px 0;
+}
+
+.btn{
+    display: block;
+    border-radius: 20px;
+    text-decoration: none;
+    margin: auto;
+}
+
+.dobrodruzstvi{
+    background-color: #407BFF;
+    width: 195px;
+    padding: 10px 30px;
+    font-size: 14px;
+    color: #ffffff;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.plaz{
+    background-color: #8B8B8B;
+    width: 220px;
+    padding: 10px 0;
+    font-size: 14px;
+    color: #ffffff;
+    text-align: center;
+}
+
+h2{
+    margin-top: 60px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.text{
+    margin: 15px 0 30px 0;
+    font-weight: 300;
+    color: #8B8B8B;
+}
+
+.card{
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px #407BFF1F;
+}
+
+.card img{
+    flex: 0 0;
+    width: 45px;
+    height: 40px;
+    margin: 20px 30px 20px 20px;
+}
+
+.card p{
+    font-size: 13px;
+    font-weight: 300;
+    text-align: left;
+    color: #8B8B8B;
+}
+
+.naplanujeme, .zajistime, .doporucime, .zajistime{
+    margin-bottom: 15px;
+}
+
+
+/* tablet */
+
+@media screen and (min-width: 640px){
+    .container{
+        max-width: 768px;
+    }
+    #happyTraveler{
+        width: 400px;
+        height: 332px;
+    }
+    h1{
+        margin: 30px 0 10px 0;  
+    }
+    .btn{
+        display: inline-block;
+    }
+    .plaz{
+        margin-left: 20px;
+    }
+    h2{
+        margin-top: 80px;
+    }
+    .text{
+        margin: 17px 0 40px 0;
+    }
+    .cards{
+        display: flex;
+        justify-content: space-around;
+        align-items: baseline;
+    }
+    .naplanujeme, .zajistime, .sezeneme, .doporucime, .objedname, .pronajmeme{
+        flex: 0 0 calc((100% - 80px) / 3);
+        display: flex;
+        flex-direction: column;
+        width: 230px;
+        height: 172px;
+    }
+    .naplanujeme img, .zajistime img, .sezeneme img, .doporucime img, .objedname img, .pronajmeme img{
+        margin: 40px 0 20px 0;
+    }
+    .naplanujeme p, .zajistime p, .sezeneme p, .doporucime p, .objedname p, .pronajmeme p{
+        margin: 0 15px 20px 15px;
+    }
+}
+
+/* PC */
+
+@media screen and (min-width: 1100px){
+    .container{
+        max-width: 1200px;
+    }
+    .uvod{
+        display: flex;
+        margin: 0 80px;
+        align-items: center;
+    }
+    .uvod--leva{
+        order: 1;
+        text-align: left;
+       flex: 1 1 50%; 
+    }
+    .uvod--prava{
+        order: 2;
+        flex: 1 1 50%;
+    }
+    .border-center{
+        margin: 0;
+    }
+    .sluzby--ck, .sluzby--delegat{
+        display: flex;
+        margin: 80px 80px 0 80px;
+        justify-content: space-between;
+        align-items: baseline;
+    }
+    .sluzby--delegat{
+        padding-bottom: 60px;
+    }
+    .ckc{
+        order: 1;
+        justify-content: space-between;
+        flex: 0 0 calc((100% - 60px) / 2);
+    }
+    .ckt{
+        order: 2;
+        flex: 0 0 calc((100% - 60px) / 2);
+        text-align: left;
+    }
+    .delegatt{
+        text-align: left;
+    }
+    .naplanujeme, .zajistime, .sezeneme, .doporucime, .objedname, .pronajmeme{
+        width: 170px;
+        height: 190px;
+        flex: 0 0 calc((100% - 60px) / 3);
+    }
+    .naplanujeme p, .zajistime p, .sezeneme p, .doporucime p, .objedname p, .pronajmeme p{
+        text-align: center;
+        margin: 0 15px 40px 15px;
+    }
+
+}
