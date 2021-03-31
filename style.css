@@ -142,6 +142,7 @@ h2{
     }
     .naplanujeme p, .zajistime p, .sezeneme p, .doporucime p, .objedname p, .pronajmeme p{
         margin: 0 15px 20px 15px;
+        text-align: center;
     }
 }
 
@@ -159,7 +160,7 @@ h2{
     .uvod--leva{
         order: 1;
         text-align: left;
-       flex: 1 1 50%; 
+        flex: 1 1 50%; 
     }
     .uvod--prava{
         order: 2;
@@ -196,7 +197,6 @@ h2{
         flex: 0 0 calc((100% - 60px) / 3);
     }
     .naplanujeme p, .zajistime p, .sezeneme p, .doporucime p, .objedname p, .pronajmeme p{
-        text-align: center;
         margin: 0 15px 40px 15px;
     }
 
