@@ -198,6 +198,7 @@ h2{
         order: 1;
         justify-content: space-between;
         flex: 0 0 calc((100% - 60px) / 2);
+        margin-right: 60px;
     }
     .ckt{
         order: 2;
@@ -206,6 +207,7 @@ h2{
     }
     .delegatt{
         text-align: left;
+        margin-right: 60px;
     }
     .naplanujeme, .zajistime, .sezeneme, .doporucime, .objedname, .pronajmeme{
         width: 170px;
