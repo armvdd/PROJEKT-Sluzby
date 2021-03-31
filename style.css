@@ -34,6 +34,7 @@ h1{
     font-size: 16px;
     font-weight: 300;
     margin: 30px 0;
+    padding: 0 20px;
 }
 
 .btn{
@@ -70,8 +71,13 @@ h2{
 
 .text{
     margin: 15px 0 30px 0;
+    padding: 0 20px;
     font-weight: 300;
     color: #8B8B8B;
+}
+
+.cards{
+    padding: 0 20px;
 }
 
 .card{
@@ -122,8 +128,12 @@ h2{
     h2{
         margin-top: 80px;
     }
+    .uvod--text{
+        padding: 0 109px;
+    }
     .text{
         margin: 17px 0 40px 0;
+        padding: 0 109px;
     }
     .cards{
         display: flex;
@@ -156,6 +166,9 @@ h2{
         display: flex;
         margin: 0 80px;
         align-items: center;
+    }
+    .uvod--text, .text{
+        padding: 0;
     }
     .uvod--leva{
         order: 1;
