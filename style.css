@@ -191,6 +191,9 @@ h2{
     .sluzby--delegat{
         padding-bottom: 60px;
     }
+    .cards{
+        padding: 0;
+    }
     .ckc{
         order: 1;
         justify-content: space-between;
